@@ -1,0 +1,11 @@
+1. Commit: registra as alterações no projeto e salva um ponto no histórico.
+
+2. Histórico de commits: permite acompanhar mudanças, corrigir erros e recuperar versões anteriores.
+
+3. Branch: possibilita trabalhar em partes diferentes do projeto ao mesmo tempo sem afetar a versão principal.
+
+1. Repositórios remotos permitem a colaboração entre desenvolvedores, além de garantir controle de versões e armazenamento seguro do projeto.
+
+2. O comando git pull atualiza o repositório local com as alterações realizadas por outros colaboradores.
+
+3. Realizar push com frequência assegura o envio das alterações ao repositório remoto, favorecendo a integração e a preservação do trabalho.

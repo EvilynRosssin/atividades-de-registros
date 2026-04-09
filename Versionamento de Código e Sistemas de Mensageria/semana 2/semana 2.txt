@@ -1,0 +1,38 @@
+Registro - Aula 2 
+
+Qual ferramenta de versionamento vocês escolheriam para a empresa mencionada no contexto.
+Justifiquem suas escolhas com base no que foi discutido na aula.
+
+1- Escolheria o GitHub como ferramenta de versionamento para a EduTech, porque ele é fácil de usar, é conhecido no mercado e funciona bem para equipes que trabalham juntas no mesmo projeto.
+
+2- O GitHub ajuda muito a organizar o código, permite revisar antes de publicar e tem integração para testes automáticos com o CI/CD. Também funciona bem com as ferramentas que a equipe já usa, cabe no orçamento e permite que a empresa cresça no futuro, sem precisar trocar de plataforma.
+
+
+SLIDES AULA 3 - Perguntas:
+
+1- Público ou privado? Por quê?
+2- Quais riscos de cada escolha?
+3- É possível mudar no futuro?
+4- Que medidas de segurança implementar?
+
+
+Projeto A: 
+
+1- Privado. Porque armazena conteúdos sensíveis, como a biometria dos funcionários, dados da folha de pagamento. e o cliente é um hospital público, que exige mais proteção.
+
+2- Se for público corre o risco de vazamento de dados, riscos de ataques direcionados, exposição a vulnerabilidade. Sendo privado menor transparência, depende da equipe para correção.
+
+3- Sim, mas seria difícil, se tornar público teria que remover dados sensíveis e revisar a arquitetura.
+
+4- Criptografia de dados, testes de segurança, autenticação forte, backup seguro.
+
+
+Projeto B:
+
+1- Público. É uma biblioteca básica, útil para outros desenvolvedores, sem dados sensíveis, e serve também como portifólio.
+
+2- sendo público tem copias de códigos, exploração de falhas e criticas. Sendo privado tem menos vulnerabilidade.
+
+3- Sim, como não tem dados sensíveis, tanto faz se ele começar privado e se tornar publico, ou o contrario.
+
+4- Revisão de códigos, documentação clara, controle de versões, testes automatizados 

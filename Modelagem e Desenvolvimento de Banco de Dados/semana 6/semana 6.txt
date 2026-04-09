@@ -1,0 +1,56 @@
+Banco de dados
+
+CREATE TABLE Salas (
+SalaID INT PRIMARY KEY,
+NomeSala VARCHAR(50),
+Capacidade INT
+);
+
+CREATE TABLE Reservas (
+ReservaID INT PRIMARY KEY AUTO_INCREMENT,
+SalaID INT,
+DataReserva DATETIME,
+Usuario VARCHAR(100),
+FOREIGN KEY (SalaID) REFERENCES Salas(SalaID)
+);
+
+Transações simples
+
+BEGIN TRANSACTION;
+IF NOT EXISTS (
+SELECT * FROM Reservas WHERE SalaID=1 AND DataReserva='2024-08-21 10:00:00'
+)
+BEGIN
+INSERT INTO Reservas (SalaID, DataReserva, Usuario) VALUES (1,'2024-08-21 10:00:00','usuario');
+COMMIT;
+END
+ELSE
+BEGIN
+ROLLBACK;
+END;
+
+Controle de concorrência
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+BEGIN TRANSACTION;
+-- Verifica e insere reserva
+COMMIT;
+ 
+ 
+ 
+ 
+Deadlocks
+Acessar recursos sempre na mesma ordem.
+Tratar deadlocks com try/catch e rollback:
+BEGIN TRY
+BEGIN TRANSACTION;
+-- Operações
+COMMIT;
+END TRY
+BEGIN CATCH
+ROLLBACK;
+PRINT 'Deadlock detectado';
+END CATCH;
+
+Use transações para garantir consistência.
+Use níveis de isolamento para controlar concorrência.
+Previna deadlocks com ordem de acesso e tratamento de erros.

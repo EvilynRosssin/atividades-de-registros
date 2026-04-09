@@ -1,0 +1,24 @@
+1
+ArtGenius: Pixels e formas, parte visual.
+TextMaster: Contexto e narrativa, parte linguística.
+MusicMaker: Ondas e ritmos, Parte Sonora.
+
+2
+Não, Embora o conceito de Transformers seja a base atual, o TextMaster usa LLMs (como GPT), o ArtGenius usa Modelos de Difusão (como Stable Diffusion) e o MusicMaker usa IAs de áudio específicas (como MusicLM).
+
+
+3
+Arte: Manter a mesma cara dos personagens em cenas diferentes.
+Texto: Não se contradizer em roteiros longos (coerência).
+Música: Não soar robótico e evitar plágio de artistas famosos
+
+SITUAÇAO:
+
+1. Como a curiosidade pode ajudar em momentos difíceis?
+A curiosidade faz as pessoas testarem coisas novas e pensarem em outras ideias para resolver o problema.
+
+2. Quando continuar tentando e quando mudar a estratégia?
+Continuar quando ainda dá pra melhorar a ideia. Mudar quando já tentaram várias vezes e não deu certo.
+
+3. Como trabalhar com ideias diferentes pode ajudar?
+Porque cada pessoa pensa de um jeito. Juntando as ideias, fica mais fácil achar uma solução melhor.

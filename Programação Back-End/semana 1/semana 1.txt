@@ -1,0 +1,17 @@
+Olá! bom dia, tudo bem?
+
+Revisei as novas demandas do nosso e-commerce e defini como podemos dividir as responsabilidades entre Front-end e Back-end.
+
+Recomendações de Produtos: Back-end
+
+Essa funcionalidade envolve análise de dados e aplicação de lógica de negócio. O Back-end ficará responsável por consultar o banco de dados, cruzar informações do histórico de navegação e compras e gerar a lista de sugestões. O Front-end apenas receberá esses dados prontos para exibição, garantindo melhor desempenho e mais segurança.
+
+Validação do Formulário de Pagamento: Front-end
+
+A verificação dos campos do formulário deve acontecer primeiro no Front-end, permitindo avisos imediatos caso haja erro no preenchimento. Isso torna o processo mais rápido e melhora a experiência do usuário. Mesmo assim, o Back-end também precisa realizar uma nova validação para assegurar a integridade das informações.
+
+Permaneço à disposição para qualquer ajuste.
+
+Atenciosamente,
+
+Evilyn Rossin
