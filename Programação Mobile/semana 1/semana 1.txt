@@ -1,0 +1,17 @@
+Analise do desafio
+
+Maior flexibilidade: Android (permite customizar quase tudo no sistema).
+Mais consistente: iOS (ecossistema fechado e padronizado pela Apple).
+
+Público Universitário: Priorizar Android pelo alcance de mercado (aparelhos mais acessíveis e populares).
+
+Fragmentação: No Android, tem mais testes para garantir que o app funcione em telas de diferentes tamanhos e potências.
+
+Monetização Rápida: iOS (usuários gastam mais em assinatura e compras dentro do app)
+
+Característica	Android	iOS
+Linguagem	Kotlin / Java	Swift
+Ambiente	Android Studio (Livre)	Xcode (Apenas Mac)
+Código	Aberto (Customizável)	Fechado (Restrito)
+Fragmentação	Alta (Muitos modelos/versões)	Baixa (Poucos modelos)
+Qualidade	Revisão flexível	Revisão rigorosa

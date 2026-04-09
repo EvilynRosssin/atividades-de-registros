@@ -1,0 +1,9 @@
+Olá, Liderança 
+
+Durante a revisão do código, percebemos alguns pontos que não seguem boas práticas e que podem dificultar a manutenção no futuro. Mesmo com o prazo próximo, acreditamos que vale a pena dedicar um tempo para ajustar as partes mais críticas.
+
+Isso ajuda a entregar um projeto mais organizado, fácil de manter e com menos chances de gerar problemas depois. Podemos focar apenas no que é mais urgente para não comprometer o prazo.
+
+Ficamos à disposição para conversar e alinhar a melhor decisão.
+
+Atenciosamente, Evilyn Rossin
